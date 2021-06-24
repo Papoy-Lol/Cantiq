@@ -1,0 +1,21 @@
+  <html>
+      <title>By Papoy</title>
+      <body align="center" style="background: black; color: white;"></body>     
+      <body>
+          <h1>Haii Cantikk</h1>
+          <img src="https://images.pexels.com/photos/789812/pexels-photo-789812.jpeg?cs=srgb&dl=pexels-daria-shevtsova-789812.jpg&fm=jpg" width="540px" height="540px">
+          <h1>Mau Ga Jadi Pacarku?</h1>
+          <button id='btn_mau' onclick='alert("Makasi Cantikk")'>Mau</button>
+          <button id='btn_gamau' onclick='alert("Jahatt bett anying")'>Gamau</button>
+      </body>
+      <script>
+          function gamau(id){
+              var mau = document.getElementById('btn_mau');
+              var i = Math.floor(Math.random()*300)+1;
+              var j = Math.floor(Math.random()*100)+mau.offsetTop;
+              id.style.left = i+'px';
+              id.style.top = j+'px';
+          }
+      </script>
+</html>
+         
